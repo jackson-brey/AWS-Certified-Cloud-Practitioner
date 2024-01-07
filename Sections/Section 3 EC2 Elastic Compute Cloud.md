@@ -53,7 +53,7 @@ EC2 user data is used to automate boot tasks such as:
 
 The EC2 User Data Script runs with the Root user
 
-<img src="../images/bootstrap_example.png" height="300" width="300">
+<img src="../Images/bootstrap_example.png" height="300" width="300">
 
 # EC2 Instance Types: Example
 
@@ -146,7 +146,7 @@ They regulate:
 - Authorized IP ranges — IPv4 and IPv6
 - Control of inbound and outbound network
 
-<img src="../images/security_group_creation.png" height="400" width="700">
+<img src="../Images/security_group_creation.png" height="400" width="700">
 
 # Security Groups - Good to Know
 
