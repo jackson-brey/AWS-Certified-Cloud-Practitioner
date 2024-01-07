@@ -111,7 +111,7 @@ AWS has 3 pricing fundamentals, following the pay-as-you-go pricing model:
     1. pay for computing time
 2. **************Storage**************:
     1. pay for data stored in the cloud
-3. ****************************Data transfer ***OUT*** of the cloud**
+3. **************Data transfer ***OUT*** of the cloud**
     1. data transfer in the cloud is free
 
 These 3 pricing fundamentals solve the expense issue of traditional IT
@@ -154,7 +154,7 @@ Availability zones are what goes inside an AWS region
 
 Each region has many AZs (usually 3, the minimum is 2, and the maximum is 6)
 
-![Untitled](Section%201%20What%20is%20Cloud%20Computing%20ee308ee356ff4132b9512718f5784f06/Untitled.png)
+<img src="../Images/aws_regions.png" height="300" width="300">
 
 Each AZ is one or more discrete data centers with redundant power, networking, and connectivity
 
