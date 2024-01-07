@@ -2,7 +2,7 @@
 
 # Traditional IT Overview - IT Terms
 
-*Network:* cables, routers, and servers connected with each other
+******Network******: cables, routers, and servers connected with each other
 
 ******Router******: networking device that forwards data packets between computer networks
 
@@ -111,7 +111,7 @@ AWS has 3 pricing fundamentals, following the pay-as-you-go pricing model:
     1. pay for computing time
 2. **************Storage**************:
     1. pay for data stored in the cloud
-3. **************Data transfer ***OUT*** of the cloud**
+3. **************Data transfer ***OUT*** of the cloud**************:
     1. data transfer in the cloud is free
 
 These 3 pricing fundamentals solve the expense issue of traditional IT
