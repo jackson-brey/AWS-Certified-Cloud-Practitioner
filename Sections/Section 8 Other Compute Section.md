@@ -28,25 +28,25 @@
 - Docker is “sort of” a virtualization technology, but not exactly
 - Resources are shared with the host ⇒ many containers on one server
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled.png)
+<img src="../Images/docker_vm.png" height="350" width="700">
 
 # ECS
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%201.png)
+<img src="../Images/ecs.png" height="150" width="150">
 
 - ECS = Elastic Container Service
 - Launch Docker containers on AWS
 
 - You must provision & maintain the infrastructure (the EC2 instances)
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%202.png)
+<img src="../Images/ecs_example.png" height="350" width="500">
 
 - AWS takes care of starting/stopping containers
 - Has integrations with the Application Load Balancer
 
 # Fargate
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%203.png)
+<img src="../Images/fargate.png" height="150" width="150">
 
 - Launch Docker containers on AWS
 - You don’t provision the infrastructure (no EC2 instances to manage) - simpler
@@ -55,13 +55,13 @@
 
 # ECR
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%204.png)
+<img src="../Images/ecr.png" height="150" width="150">
 
 - Elastic Container Registry
 - Private Docker Registry on AWS
 - This is where you store your Docker images so they can be run by ECS or Fargate
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%205.png)
+<img src="../Images/ecr_fargate.png" height="350" width="500">
 
 # What’s Serverless?
 
@@ -74,7 +74,7 @@
 
 # Why AWS Lambda
 
-![********************Amazon EC2********************](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%206.png)
+<img src="../Images/ec2.png" height="150" width="150">
 
 ********************Amazon EC2********************
 
@@ -85,7 +85,7 @@
 
 ---
 
-![**************************Amazon Lambda**************************](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%207.png)
+<img src="../Images/lambda.png" height="150" width="150">
 
 **************************Amazon Lambda**************************
 
@@ -122,11 +122,11 @@
 
 # Example: Serverless Thumbnail Creation
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%208.png)
+<img src="../Images/serverless_example.png" height="400" width="700">
 
 # Example: Serverless CRON Job
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%209.png)
+<img src="../Images/serverless_cron.png" height="350" width="500">
 
 # AWS Lambda Pricing: Example
 
@@ -143,11 +143,11 @@
 
 # Amazon API Gateway
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2010.png)
+<img src="../Images/api_gateway.png" height="150" width="150">
 
 - Example: building a serverless API
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2011.png)
+<img src="../Images/api_gateway_example.png" height="350" width="700">
 
 - Fully managed service for developers to easily create, publish, maintain, monitor, and secure APIs
 - Serverless and scalable
@@ -156,7 +156,7 @@
 
 # AWS Batch
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2012.png)
+<img src="../Images/awsbatch.png" height="150" width="150">
 
 - Fully managed batch processing at any scale
 - Efficiently run 100,000s of computing batch jobs on AWS
@@ -169,7 +169,7 @@
 
 # AWS Batch - Simplified Example
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2013.png)
+<img src="../Images/batch_example.png" height="350" width="600">
 
 # Batch vs. Lambda
 
@@ -179,7 +179,7 @@
     - Limited temporary disk space
     - Serverless
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2014.png)
+<img src="../Images/lambda.png" height="150" width="150">
 
 - Batch:
     - No time limit
@@ -187,11 +187,11 @@
     - Rely on EBS / instance store for disk space
     - Relies on EC2 (can be managed by AWS)
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2015.png)
+<img src="../Images/awsbatch.png" height="150" width="150">
 
 # Amazon Lightsail
 
-![Untitled](Section%208%20Other%20Compute%20Section%206de54a6eae694ff4b87b7cf4b8647fe4/Untitled%2016.png)
+<img src="../Images/lightsail.png" height="150" width="150">
 
 - Virtual servers, storage, databases, and networking
 - Low & predictable pricing
