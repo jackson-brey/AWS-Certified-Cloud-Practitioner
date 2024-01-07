@@ -53,7 +53,7 @@ EC2 user data is used to automate boot tasks such as:
 
 The EC2 User Data Script runs with the Root user
 
-![Untitled](Section%203%20EC2%20Elastic%20Compute%20Cloud%20b220d304d0584ce19db2170040b27d1a/Untitled.png)
+<img src="../images/bootstrap_example.png" height="300" width="300">
 
 # EC2 Instance Types: Example
 
@@ -65,7 +65,7 @@ The EC2 User Data Script runs with the Root user
 | x5.16xlarge | 64 | 512 | EBS-Only | 20 Gbps | 13600 Mbps |
 | m5.8xlarge | 32 | 128 | EBS-Only | 10 Gbps | 6800 Mbps |
 
-**t2.micro is part of the AWS free tie (~750 hours/month)**
+**t2.micro is part of the AWS free tier (~750 hours/month)**
 
 # EC2 Instance Types - Overview
 
@@ -146,7 +146,7 @@ They regulate:
 - Authorized IP ranges — IPv4 and IPv6
 - Control of inbound and outbound network
 
-![Untitled](Section%203%20EC2%20Elastic%20Compute%20Cloud%20b220d304d0584ce19db2170040b27d1a/Untitled%201.png)
+<img src="../images/security_group_creation.png" height="400" width="700">
 
 # Security Groups - Good to Know
 
