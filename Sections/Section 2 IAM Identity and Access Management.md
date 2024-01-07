@@ -3,7 +3,7 @@
 # IAM: Users and Groups
 
 - IAM is a global service
-- ********Root** account is created by default and shouldn’t be used or shared
+- ********Root******** account is created by default and shouldn’t be used or shared
 - **********Users********** are people within the organization and can be grouped
 - Groups only contain users and not other groups
 - Users don’t have to belong to a group (not best practice), and they can also belong to multiple groups
@@ -16,7 +16,7 @@
 
 # IAM Policies Structure
 
-![Untitled](Section%202%20IAM%20Identity%20and%20Access%20Management%2025548c1875ae4534b5c17e01dc498f92/Untitled.png)
+<img src="../Images/iam_policy.png" height="300" width="300">
 
 Consists of:
 
@@ -49,7 +49,7 @@ In AWS, you can set a password policy:
 - Require users to change their password after some time (expiration)
 - Prevent password re-use
 
-![Untitled](Section%202%20IAM%20Identity%20and%20Access%20Management%2025548c1875ae4534b5c17e01dc498f92/Untitled%201.png)
+<img src="../Images/iam_password_policy.png" height="300" width="300">
 
 # Multi-Factor Authentication (MFA)
 
