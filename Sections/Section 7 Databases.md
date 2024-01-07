@@ -308,7 +308,7 @@ Multi-AZ
 
 # DMS - Database Migration Service
 
-<img src="../Images/dms.png" height="300" width="300">
+<img src="../Images/dms.png" height="150" width="150">
 
 - Quickly and securely migrate databases to AWS, resilient, self-healing
 
