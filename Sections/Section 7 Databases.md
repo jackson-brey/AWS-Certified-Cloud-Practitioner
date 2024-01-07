@@ -138,7 +138,7 @@ Multi-AZ
 
 # DynamoDB
 
-<img src="../Images/dynamo.png" height="300" width="300">
+<img src="../Images/dynamo.png" height="150" width="150">
 
 - Fully Managed Highly available with replication across 3 AZ
 - NoSQL database - not a relational database
@@ -177,7 +177,7 @@ Multi-AZ
 
 # Redshift Overview
 
-<img src="../Images/redshift.png" height="300" width="300">
+<img src="../Images/redshift.png" height="150" width="150">
 
 - Redshift is based on PostgreSQL, but it’s not used for OLTP
 - It’s OLAP - online analytical processing (analytics and data warehousing)
@@ -191,7 +191,7 @@ Multi-AZ
 
 # Amazon EMR
 
-<img src="../Images/emr.png" height="300" width="300">
+<img src="../Images/emr.png" height="150" width="150">
 
 - EMR stands for “Elastic MapReduce”
 - EMR helps create Hadoop clusters (Big Data) to analyze and process vast amounts of data
@@ -203,7 +203,7 @@ Multi-AZ
 
 # Amazon Athena
 
-<img src="../Images/athena.png" height="300" width="300">
+<img src="../Images/athena.png" height="150" width="150">
 
 - Serverless query service to analyze data stored in Amazon S3
 - Uses standard SQL language to query the files
@@ -215,17 +215,17 @@ Multi-AZ
 
 - Use compressed or columnar data for cost-savings (less scan)
 - ********************************************************************************************************************Use cases:********************************************************************************************************************
-    - Business intelligence ****************************************************************************************************************************************************************************************************************************************
-    - Analytics ****************************************************************************************************************************************************************************************************************************************
-    - Reporting ****************************************************************************************************************************************************************************************************************************************
+    - Business intelligence 
+    - Analytics 
+    - Reporting 
     - Analyze & query VPC Flow Logs
-    - ELB Logs ****************************************************************************************************************************************************************************************************************************************
+    - ELB Logs 
     - CloudTrail trails, etc.
 - **************Exam Tip:************** analyze data in S3 using serverless SQL, use Athena
 
 # Amazon QuickSight
 
-<img src="../Images/quicksight.png" height="300" width="300">
+<img src="../Images/quicksight.png" height="150" width="150">
 
 - Serverless machine learning-powered business intelligence service to create interactive dashboards
 - Fast, automatically scalable, embeddable, with per-session pricing
@@ -238,7 +238,7 @@ Multi-AZ
 
 # DocumentDB
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2020.png)
+<img src="../Images/documentDB.png" height="250" width="400">
 
 - Aurora is an “AWS implementation” of PostgreSQL/MySQL
 - DocumentDB is the same for MongoDB (which is a NoSQL database)
@@ -250,7 +250,7 @@ Multi-AZ
 
 # Amazon Neptune
 
-<img src="../Images/neptune.png" height="300" width="300">
+<img src="../Images/neptune.png" height="150" width="150">
 
 - Fully-managed graph database
 - A popular graph dataset would be a social network
@@ -268,7 +268,7 @@ Multi-AZ
 
 # Amazon QLDB
 
-<img src="../Images/qldb.png" height="300" width="300">
+<img src="../Images/qldb.png" height="150" width="150">
 
 - QLDB stands for “Quantum Ledge Database”
 - A ledger is a book **recording financial transactions**
@@ -283,7 +283,7 @@ Multi-AZ
 
 # Amazon Managed Blockchain
 
-<img src="../Images/managed_blockchain.png" height="300" width="300">
+<img src="../Images/managed_blockchain.png" height="150" width="150">
 
 - Blockchain makes it possible to build applications where multiple parties can execute transactions **************************************************************************************************without the need for a trusted, central authority**************************************************************************************************
 - Amazon Managed Blockchain is a managed service to:
@@ -293,7 +293,7 @@ Multi-AZ
 
 # AWS Glue
 
-<img src="../Images/aws_glue.png" height="300" width="300">
+<img src="../Images/aws_glue.png" height="150" width="150">
 
 - Managed **********************************************************extract, transform, and load********************************************************** (ETL) service
 - Useful to prepare and transform data for analytics
