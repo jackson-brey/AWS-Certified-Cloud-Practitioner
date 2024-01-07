@@ -49,7 +49,7 @@ In AWS, you can set a password policy:
 - Require users to change their password after some time (expiration)
 - Prevent password re-use
 
-<img src="../Images/iam_password_policy.png" height="300" width="300">
+<img src="../Images/iam_password_policy.png" height="400" width="500">
 
 # Multi-Factor Authentication (MFA)
 
