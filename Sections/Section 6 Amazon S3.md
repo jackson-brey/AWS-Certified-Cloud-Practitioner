@@ -244,7 +244,7 @@ Highly secure, portable devices to collect and process data at the edge, and mig
 
 Data migration: 
 
-<img src="../Images/aws_snow_data_migration.png" height="350" width="700">
+<img src="../Images/aws_snow_family.png" height="350" width="700">
 
 Edge computing:
 
@@ -310,7 +310,7 @@ Challenges:
 
 # AWS Snow Family for Data Migrations
 
-<img src="../Images/aws_snow_data_migrations.png" height="450" width="650">
+<img src="../Images/aws_snow_data_migration.png" height="450" width="650">
 
 # Snow Family - Usage Process
 
