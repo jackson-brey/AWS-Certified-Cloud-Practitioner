@@ -59,7 +59,7 @@ Load balancers are servers that forward internet traffic to multiple servers (EC
 
 Allows for better backend scaling
 
-![Untitled](Section%205%20Elastic%20Load%20Balancing%20and%20Auto%20Scaling%20%20d60ded043be04ca2900a57789870e0f5/Untitled.png)
+<img src="../Images/load_balancer.png" height="350" width="700">
 
 # Why Use a Load Balancer?
 
@@ -91,7 +91,7 @@ It costs less to setup your own load balancer but it will be a lot more effort o
 2. Network Load Balancer (ultra-high performance, allows for TCP) - Layer 4
 3. Classic Load Balancer (slowly retiring) - Layers 4 & 7
 
-![Untitled](Section%205%20Elastic%20Load%20Balancing%20and%20Auto%20Scaling%20%20d60ded043be04ca2900a57789870e0f5/Untitled%201.png)
+<img src="../Images/elb.png" height="350" width="700">
 
 # What’s an Auto Scaling Group?
 

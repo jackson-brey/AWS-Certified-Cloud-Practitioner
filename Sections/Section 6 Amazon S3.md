@@ -96,11 +96,11 @@ Encryption: encrypt objects in Amazon S3 using encryption keys
     - Force objects to be encrypted at upload
     - Grant access to another account (Cross Account)
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled.png)
+<img src="../Images/s3_bucket_policy.png" height="350" width="500">
 
 # Bucket Settings for Block Public Access
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%201.png)
+<img src="../Images/s3_bucket_settings.png" height="350" width="500">
 
 - **These settings were created to prevent company data leaks**
 - If you know your bucket shouldn’t be public, leave these settings enabled
@@ -144,7 +144,7 @@ Notes:
 - Copying is asynchronous
 - Must give proper IAM permissions to S3
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%202.png)
+<img src="../Images/s3_replication.png" height="500" width="300">
 
 Use cases:
 
@@ -225,7 +225,7 @@ Can move between classes manually or using S3 Lifecycle configurations
 
 # S3 Encryption
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%203.png)
+<img src="../Images/s3_encryption.png" height="350" width="700">
 
 # Shared Responsibility Model for S3
 
@@ -244,15 +244,15 @@ Highly secure, portable devices to collect and process data at the edge, and mig
 
 Data migration: 
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%204.png)
+<img src="../Images/aws_snow_data_migration.png" height="350" width="700">
 
 Edge computing:
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%205.png)
+<img src="../Images/aws_snow_edge.png" height="350" width="700">
 
 # Data Migrations with AWS Snow Family
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%206.png)
+<img src="../Images/aws_snow_ttt.png" height="350" width="500">
 
 Challenges:
 
@@ -270,11 +270,11 @@ Challenges:
 
 - Direct upload to S3:
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%207.png)
+<img src="../Images/direct_to_s3.png" height="350" width="350">
 
 - With Snow Family:
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%208.png)
+<img src="../Images/using_snow_family.png" height="350" width="500">
 
 # Snowball Edge (for data transfers)
 
@@ -286,7 +286,7 @@ Challenges:
     - 80 TB of HDD or 28TB NVMe capacity for block volume and S3-compatible object storage
 - Use cases: large data cloud migrations, DC decommission, disaster recovery
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%209.png)
+<img src="../Images/snowball_edge.png" height="350" width="500">
 
 # AWS Snowcone & Snowcone SSD
 
@@ -299,7 +299,7 @@ Challenges:
 - Must provide your own battery/cables
 - Can be sent back to AWS offline, or connect it to the internet and use AWS DataSync to send data
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%2010.png)
+<img src="../Images/aws_snowcone.png" height="350" width="500">
 
 # AWS Snowmobile
 
@@ -310,7 +310,7 @@ Challenges:
 
 # AWS Snow Family for Data Migrations
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%2011.png)
+<img src="../Images/aws_snow_data_migrations.png" height="450" width="650">
 
 # Snow Family - Usage Process
 
@@ -373,7 +373,7 @@ Challenges:
 
 # AWS Storage Cloud Native Options
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%2012.png)
+<img src="../Images/aws_storage_cloud_native.png" height="350" width="700">
 
 # AWS Storage Gateway
 
@@ -386,7 +386,7 @@ Challenges:
     - Tape Gateway
 - *No need to know the types at the exam*
 
-![Untitled](Section%206%20Amazon%20S3%20a19fcd1856d5443fa378c5a5deb06ff4/Untitled%2013.png)
+<img src="../Images/aws_storage_gateway.png" height="350" width="500">
 
 # Amazon S3 - Summary
 
