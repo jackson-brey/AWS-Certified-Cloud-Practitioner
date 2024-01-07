@@ -53,7 +53,7 @@ Can copy snapshots across AZ or Regions
 
 - you will be able to transfer some of your data in a different region of AWS to leverage the global infrastructure
 
-![Untitled](Section%204%20EC2%20Instance%20Storage%20e9d5fe91492443ecb334c50158eff495/Untitled.png)
+<img src="../Images/ebs_snapshot.png" height="350" width="500">
 
 # EBS Snapshot Features
 
@@ -92,7 +92,7 @@ You can launch EC2 instances from:
 3. Build an AMI — this will also create EBS snapshots
 4. Launch instances from other AMIs
 
-![Untitled](Section%204%20EC2%20Instance%20Storage%20e9d5fe91492443ecb334c50158eff495/Untitled%201.png)
+<img src="../Images/ami_example.png" height="350" width="500">
 
 # EC2 Image Builder
 
@@ -104,7 +104,7 @@ Can be run on a schedule (whenever packages are updated, weekly, etc.)
 
 Free service (only paying for underlying resources)
 
-![Untitled](Section%204%20EC2%20Instance%20Storage%20e9d5fe91492443ecb334c50158eff495/Untitled%202.png)
+<img src="../Images/ec2_image_builder.png" height="350" width="500">
 
 # EC2 Instance Store
 

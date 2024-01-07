@@ -15,7 +15,7 @@
 - Looks like Excel spreadsheets, with links between them
 - Can use the SQL language to perform queries/lookups
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled.png)
+<img src="../Images/relational_databases.png" height="400" width="800">
 
 # NoSQL Databases
 
@@ -36,7 +36,7 @@
 - Fields can ********************change******************** over time
 - Support for new types: arrays, etc.
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%201.png)
+<img src="../Images/nosql_example.png" height="350" width="500">
 
 # Databases & Shared Responsibility on AWS
 
@@ -51,7 +51,7 @@
 
 # AWS RDS Overview
 
-![AWS RDS](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%202.png)
+<img src="../Images/rds.png" height="300" width="300">
 
 AWS RDS
 
@@ -80,11 +80,11 @@ AWS RDS
 
 # RDS Solution Architecture
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%203.png)
+<img src="../Images/rds_architecture.png" height="350" width="700">
 
 # Amazon Aurora
 
-![Amazon Aurora](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%204.png)
+<img src="../Images/aurora.png" height="300" width="300">
 
 Amazon Aurora
 
@@ -95,7 +95,7 @@ Amazon Aurora
 - Aurora costs more than RDS (20% more) - but is more efficient
 - Not available in the free tier
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%205.png)
+<img src="../Images/ec2_aurora.png" height="350" width="700">
 
 # RDS Deployments: Read Replicas, Multi-AZ
 
@@ -105,11 +105,11 @@ Amazon Aurora
 | Can create up to 15 Read Replicas | Data is only read/written to the main database |
 | Data is only written to the main DB | Can only have 1 other AZ as failover |
 
-![Read Replicas](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%206.png)
+<img src="../Images/read_replicas.png" height="350" width="500">
 
 Read Replicas
 
-![Multi-AZ](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%207.png)
+<img src="../Images/multi_az.png" height="550" width="800">
 
 Multi-AZ
 
@@ -120,11 +120,11 @@ Multi-AZ
     - Local performance for global reads
     - Replication cost
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%208.png)
+<img src="../Images/rds_multi_region.png" height="350" width="700">
 
 # Amazon ElastiCache Overview
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%209.png)
+<img src="../Images/elasticache.png" height="300" width="300">
 
 - In the same way, RDS is to get managed Relational Databases…
 - ElastiCache is to get managed Redis and Memcached
@@ -134,11 +134,11 @@ Multi-AZ
 
 # ElastiCache Solution Architecture - Cache
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2010.png)
+<img src="../Images/elasticache_architecture.png" height="450" width="700">
 
 # DynamoDB
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2011.png)
+<img src="../Images/dynamo.png" height="300" width="300">
 
 - Fully Managed Highly available with replication across 3 AZ
 - NoSQL database - not a relational database
@@ -157,7 +157,7 @@ Multi-AZ
     [What Is a Key-Value Database?](https://aws.amazon.com/nosql/key-value/)
     
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2012.png)
+<img src="../Images/dynamo_attributes.png" height="400" width="500">
 
 # DynamoDB Accelerator - DAX
 
@@ -166,18 +166,18 @@ Multi-AZ
 - Secure, highly scalable & highly available
 - Difference with ElastiCache at the CCP level: DAX is only used for and is integrated with DynamoDB, while ElastiCache can be used for other databases
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2013.png)
+<img src="../Images/dax.png" height="400" width="400">
 
 # DynamoDB - Global Tables
 
 - Make a DynamoDB table accessible with low latency in multiple regions
 - Active-Active replication (read/write to any AWS Region)
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2014.png)
+<img src="../Images/dynamo_global.png" height="350" width="500">
 
 # Redshift Overview
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2015.png)
+<img src="../Images/redshift.png" height="300" width="300">
 
 - Redshift is based on PostgreSQL, but it’s not used for OLTP
 - It’s OLAP - online analytical processing (analytics and data warehousing)
@@ -191,7 +191,7 @@ Multi-AZ
 
 # Amazon EMR
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2016.png)
+<img src="../Images/emr.png" height="300" width="300">
 
 - EMR stands for “Elastic MapReduce”
 - EMR helps create Hadoop clusters (Big Data) to analyze and process vast amounts of data
@@ -203,7 +203,7 @@ Multi-AZ
 
 # Amazon Athena
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2017.png)
+<img src="../Images/athena.png" height="300" width="300">
 
 - Serverless query service to analyze data stored in Amazon S3
 - Uses standard SQL language to query the files
@@ -211,7 +211,7 @@ Multi-AZ
 
 - Pricing: $5 per TB of data scanned
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2018.png)
+<img src="../Images/athena_example.png" height="500" width="300">
 
 - Use compressed or columnar data for cost-savings (less scan)
 - ********************************************************************************************************************Use cases:********************************************************************************************************************
@@ -225,7 +225,7 @@ Multi-AZ
 
 # Amazon QuickSight
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2019.png)
+<img src="../Images/quicksight.png" height="300" width="300">
 
 - Serverless machine learning-powered business intelligence service to create interactive dashboards
 - Fast, automatically scalable, embeddable, with per-session pricing
@@ -250,7 +250,7 @@ Multi-AZ
 
 # Amazon Neptune
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2021.png)
+<img src="../Images/neptune.png" height="300" width="300">
 
 - Fully-managed graph database
 - A popular graph dataset would be a social network
@@ -264,11 +264,11 @@ Multi-AZ
 - Highly available with replications across multiple AZs
 - Great for knowledge graphs (Wikipedia), fraud detection, recommendation engines, social networking
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2022.png)
+<img src="../Images/neptune_example.png" height="350" width="500">
 
 # Amazon QLDB
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2023.png)
+<img src="../Images/qldb.png" height="300" width="300">
 
 - QLDB stands for “Quantum Ledge Database”
 - A ledger is a book **recording financial transactions**
@@ -276,14 +276,14 @@ Multi-AZ
 - Used to ********************************************************************************************************************************review the history of all the changes made to your application data******************************************************************************************************************************** over time
 - ********************Immutable******************** system: no entry can be removed or modified, cryptographically verifiable
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2024.png)
+<img src="../Images/qldb_journal.png" height="400" width="800">
 
 - 2-3x better performance than common ledger blockchain frameworks, manipulate data using SQL
 - Difference with Amazon Managed Blockchain: **********************************************************no decentralization component**********************************************************, in accordance with financial regulation rules
 
 # Amazon Managed Blockchain
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2025.png)
+<img src="../Images/managed_blockchain.png" height="300" width="300">
 
 - Blockchain makes it possible to build applications where multiple parties can execute transactions **************************************************************************************************without the need for a trusted, central authority**************************************************************************************************
 - Amazon Managed Blockchain is a managed service to:
@@ -293,28 +293,28 @@ Multi-AZ
 
 # AWS Glue
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2026.png)
+<img src="../Images/aws_glue.png" height="300" width="300">
 
 - Managed **********************************************************extract, transform, and load********************************************************** (ETL) service
 - Useful to prepare and transform data for analytics
 - Fully ************************serverless************************ service
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2027.png)
+<img src="../Images/aws_glue_example.png" height="350" width="700">
 
 - Glue Data Catalog: catalog of datasets
     - can be used by Athena, Redshift, EMR
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2028.png)
+<img src="../Images/aws_glue_catalog.png" height="200" width="200">
 
 # DMS - Database Migration Service
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2029.png)
+<img src="../Images/dms.png" height="300" width="300">
 
 - Quickly and securely migrate databases to AWS, resilient, self-healing
 
 - The source database remains available during the migration
 
-![Untitled](Section%207%20Databases%201d6803e411404609adf424c31772da5a/Untitled%2030.png)
+<img src="../Images/dms_example.png" height="350" width="300">
 
 - Supports:
     - Homogenous migrations: Oracle to Oracle
