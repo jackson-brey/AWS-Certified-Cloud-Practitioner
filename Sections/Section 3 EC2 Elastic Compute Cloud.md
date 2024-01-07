@@ -53,7 +53,7 @@ EC2 user data is used to automate boot tasks such as:
 
 The EC2 User Data Script runs with the Root user
 
-<img src="../Images/bootstrap_example.png" height="300" width="300">
+<img src="../Images/bootstrap_example.png" height="400" width="700">
 
 # EC2 Instance Types: Example
 
