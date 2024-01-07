@@ -79,7 +79,7 @@ Resource-Based
 
 ******************************************************************************************************************************************************Note: an IAM principle can access an S3 object if:******************************************************************************************************************************************************
 
-- ***************************************************************************The user IAM permissions ALLOW it OR THE resource policy ALLOWS it***
+- ***************************************************************************The user IAM permissions ALLOW it OR THE resource policy ALLOWS it***************************************************************************
 - ***************************There’s no explicit DENY***************************
 
 Encryption: encrypt objects in Amazon S3 using encryption keys
@@ -270,11 +270,11 @@ Challenges:
 
 - Direct upload to S3:
 
-<img src="../Images/direct_to_s3.png" height="350" width="350">
+<img src="../Images/direct_to_s3.png" height="350" width="650">
 
 - With Snow Family:
 
-<img src="../Images/using_snow_family.png" height="350" width="500">
+<img src="../Images/using_snow_family.png" height="350" width="900">
 
 # Snowball Edge (for data transfers)
 
@@ -373,7 +373,7 @@ Challenges:
 
 # AWS Storage Cloud Native Options
 
-<img src="../Images/aws_storage_cloud_native.png" height="350" width="700">
+<img src="../Images/aws_storage_cloud_native.png" height="350" width="900">
 
 # AWS Storage Gateway
 
@@ -386,7 +386,7 @@ Challenges:
     - Tape Gateway
 - *No need to know the types at the exam*
 
-<img src="../Images/aws_storage_gateway.png" height="350" width="500">
+<img src="../Images/aws_storage_gateway.png" height="450" width="600">
 
 # Amazon S3 - Summary
 
