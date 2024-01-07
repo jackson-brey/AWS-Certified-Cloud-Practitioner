@@ -38,17 +38,9 @@
 - Route53 is a Managed DNS
 - DNS is a collection of rules and records which helps clients understand how to reach a server through URLs
 
-# Route53 - Diagram for A Record
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled.png)
-
 # Route53 Routing Policies
 
 - **Know these at a high-level for the Cloud Practitioner Exam**
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%201.png)
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%202.png)
 
 - Simple Routing Policy
     - Used for a single resource that performs a given function for your domain
@@ -65,8 +57,6 @@
     - You can use failover routing to create records in a private hosted zone
 
 # Amazon CloudFront
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%203.png)
 
 - Content Delivery Network (CDN)
 - Improves read performance, content is cached at the edge
@@ -87,10 +77,6 @@
     - S3 website (must first enable the bucket as a static S3 website)
     - Any HTTP backend you want
 
-# CloudFront at a High Level
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%204.png)
-
 # CloudFront vs S3 Cross Region Replication
 
 - CloudFront:
@@ -107,11 +93,7 @@
     
     - Increase transfer speed by transferring files to an AWS edge location which will forward the data to the S3 bucket in the target region
 
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%205.png)
-
 # AWS Global Accelerator
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%206.png)
 
 - Improve global application availability and performance using the AWS global network
 - Leverage the AWS internal network to optimize the route to your application (60% improvement)
@@ -134,16 +116,12 @@
 
 # AWS Outposts
 
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%207.png)
-
 - **************************Hybrid Cloud:************************** a business that keeps an on-premises infrastructure alongside a cloud infrastructure
 - Therefore, two ways of dealing with IT systems:
     - One for the AWS cloud (using the AWS console, CLIs, and AWS APIs)
     - One for their on-premises infrastructure
 
 - **************************************************AWS Outposts are “server racks”************************************************** that offer the same AWS infrastructure, services, APIs & tools to build your own applications on-premises just as in the cloud
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%208.png)
 
 - ******************************************************************************************AWS will set up and manage “Outposts Racks”****************************************************************************************** within your on-premises infrastructure and you can start leveraging AWS services on-premises
 - **********************************************************************************You are responsible for the Outposts Rack physical security**********************************************************************************
@@ -164,15 +142,11 @@
 
 # AWS WaveLength
 
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%209.png)
-
 - WaveLength Zones are infrastructure deployments embedded within the telecommunications providers’ data centers at the edge of the 5G networks
 - Brings AWS services to the edge of the 5G networks
 - Example: EC2, EBS, VPC…
 - Ultra-low latency applications through 5G networks
 - Traffic doesn’t leave the Communication Service Provider’s (CSP) network
-    
-    ![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%2010.png)
     
 - High-bandwidth and secure connection to the parent AWS Region
 - No additional charges or service agreements
@@ -186,13 +160,6 @@
 - Example:
     - AWS Region: N. Virginia (us-east-1)
     - AWS Local Zones: Boston, Chicago, Dallas, Houston, Miami…
-    
-
-# Global Applications Architecture
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%2011.png)
-
-![Untitled](Section%2010%20Global%20Infrastructure%20Section%20f3f8599284804e8ab58eff87c598b569/Untitled%2012.png)
 
 # Global Applications in AWS - Summary
 

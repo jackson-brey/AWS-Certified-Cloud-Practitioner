@@ -16,8 +16,6 @@
 
 # Amazon SQS (Simple Queue Service) - Standard Queue
 
-![Untitled](Section%2011%20Cloud%20Integration%20322103da891241f6bc4e16c9c98f575e/Untitled.png)
-
 - Oldest AWS offering (over 10 years old)
 - Fully managed service (~serverless), used to ****************decouple**************** applications
 - Scales from 1 message per second to 10,000s per second
@@ -29,8 +27,6 @@
 
 # Amazon Kinesis
 
-![Untitled](Section%2011%20Cloud%20Integration%20322103da891241f6bc4e16c9c98f575e/Untitled%201.png)
-
 - ********************************************************************************************************For the exam: Kinesis = real-time big data streaming********************************************************************************************************
 - Managed service to collect, process, and analyze real-time streaming data at any scale
 - Too detailed for the Cloud Practitioner exam but good to know:
@@ -41,8 +37,6 @@
 
 # Amazon SNS
 
-![Untitled](Section%2011%20Cloud%20Integration%20322103da891241f6bc4e16c9c98f575e/Untitled%202.png)
-
 - What if you want to send one message to many receivers
 - Amazon Simple Notification Service is a notification service provided as part of Amazon Web Services since 2010. It provides a low-cost infrastructure for mass delivery of messages, predominantly to mobile users
 - The “event publishers” only send messages to one SNS topic
@@ -50,8 +44,6 @@
 - Up to 12,500,000 subscriptions per topic, 100,000 topics limit
 
 # Amazon MQ
-
-![Untitled](Section%2011%20Cloud%20Integration%20322103da891241f6bc4e16c9c98f575e/Untitled%203.png)
 
 - SQS and SNS are “cloud-native” services; proprietary protocols from AWS
 - Traditional applications running from on-premises may use open protocols such as MQTT, AMQP, STOMP, Openwire, WSS

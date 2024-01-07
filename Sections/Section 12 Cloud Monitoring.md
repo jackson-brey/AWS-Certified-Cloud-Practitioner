@@ -2,8 +2,6 @@
 
 # Amazon CloudWatch Metrics
 
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled.png)
-
 - CloudWatch provides metrics for *****every***** service in AWS
 - A metric is a variable to monitor (CPU Utilization, NetworkIn…)
 - Metrics have timestamps
@@ -49,9 +47,6 @@
 - By default, no logs from your EC2 instance will go to CloudWatch
 
 - You need to run a CloudWatch agent on EC2 to push the log files you want
-
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%201.png)
-
 - Make sure that IAM permissions are correct
 - The CloudWatch log agent can be setup on-premises too
 
@@ -59,11 +54,7 @@
 
 - Schedule: CRON Jobs (scheduled scripts)
 
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%202.png)
-
 - Event Pattern: Event rules to react to a service doing something
-
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%203.png)
 
 - Trigger Lambda functions, send SQS/SNS messages…
 - EventBridge is the next evolution of CloudWatch Events
@@ -76,8 +67,6 @@
 
 # AWS CloudTrail
 
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%204.png)
-
 - Provides governance, compliance, and audit for your AWS account
 - CloudTrail is enabled by default
 - Get a history of events/API calls made within your AWS account by:
@@ -89,13 +78,7 @@
 - A trail can be applied to All Regions (Default) or a single Region
 - If a resource is deleted in AWS, investigate CloudTrail first
 
-# AWS CloudTrail Diagram
-
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%205.png)
-
 # AWS X-Ray
-
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%206.png)
 
 - Debugging in Production, the old way:
     - Test locally
@@ -116,14 +99,10 @@
 
 # Amazon CodeGuru
 
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%207.png)
-
 - An ML-powered service for automated code reviews and application performance recommendations
 - Provides two functionalities
     - CodeGuru Reviewer: automated code reviews for static code analysis (development)
     - CodeGuru Profiler: visibility/recommendations about application performance during runtime (production)
-
-![Untitled](Section%2012%20Cloud%20Monitoring%2001735b1ff7e34c42a7ac03222466e8b6/Untitled%208.png)
 
 # Amazon CodeGuru Reviewer
 

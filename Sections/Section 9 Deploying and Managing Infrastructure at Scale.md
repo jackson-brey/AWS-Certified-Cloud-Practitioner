@@ -2,8 +2,6 @@
 
 # What is CloudFormation
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled.png)
-
 - CloudFormation is a declarative way of outlining your AWS Infrastructure, for any resources (most of them are supported).
 - For example, within a CloudFormation template, you say:
     - I want a security group
@@ -36,8 +34,6 @@
 - Example: WordPress CloudFormation Stack
 - All resources can be seen as well as the relations between the components
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%201.png)
-
 # AWS Cloud Development Kit
 
 - Define your cloud infrastructure using a familiar language:
@@ -46,16 +42,6 @@
 - You can therefore deploy infrastructure and application runtime code together
     - Great for Lambda functions
     - Great for docker containers in ECS/EKS
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%202.png)
-
-# CDK Example
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%203.png)
-
-# Typical Architecture: Web App 3-Tier
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%204.png)
 
 # Developer Problems on AWS
 
@@ -67,8 +53,6 @@
 - All the developers want is for their code to run consistently across different applications and environments
 
 # AWS Elastic Beanstalk Overview
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%205.png)
 
 - Elastic Beanstalk is a developer-centric view of deploying an application on AWS
 - It uses all the components we’ve seen before: EC2, ASG, ELB, RDS, etc…
@@ -113,21 +97,13 @@
 
 # AWS CodeDeploy
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%206.png)
-
 - We want to deploy our application automatically
-
 - Works with EC2 Instances
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%207.png)
-
 - Works with On-Premises Servers
 - Hybrid service
 - Servers/Instances must be provisioned and configured ahead of time with the CodeDeploy Agent
 
 # AWS CodeCommit
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%208.png)
 
 - Before pushing the application code to servers, it needs to be stored somewhere
 - Developers usually store code in a repository, using the Git technology
@@ -143,12 +119,8 @@
 
 # AWS CodeBuild
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%209.png)
-
 - Code building service in the cloud
 - Compiles source code, runs tests, and produces packages that are ready to be deployed (by CodeDeploy for example)
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2010.png)
 
 - Benefits:
     - Fully managed, serverless
@@ -159,8 +131,6 @@
 
 # AWS CodePipeline
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2011.png)
-
 - Orchestrate the different steps to have the code automatically pushed to production
     - Code ⇒ Build ⇒ Test ⇒ Provision ⇒
     - Basis for CICD (Continuous Integration & Continuous Delivery)
@@ -168,11 +138,7 @@
     - Fully managed, compatible with CodeCommit, CodeBuild, CodeDeploy, Elastic Beanstalk, CloudFormation, GitHub, 3rd-party services (GitHub…) & custom plugins
     - Fast delivery & rapid updates
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2012.png)
-
 # AWS CodeArtifact
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2013.png)
 
 - Software packages depend on each other to be built (also called code dependencies), and new ones are created
 - Storing and retrieving these dependencies is called ************artifact management************
@@ -183,15 +149,11 @@
 
 # AWS CodeStar
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2014.png)
-
 - Unified UI to easily manage software development activities in one place
 - “Quick way” to get started to correctly set up CodeCommit, CodePipeline, CodeBuild, CodeDeploy, Elastic Beanstalk, EC2, etc…
 - Can edit the code “in-the-cloud” using AWS Cloud9
 
 # AWS Cloud9
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2015.png)
 
 - AWS Cloud9 is a cloud IDE (Integrated Development Environment) for writing, running, and debugging code
 - “Classic” IDE (like IntelliJ, and Visual Studio Code…) are downloaded on a computer before being used
@@ -199,8 +161,6 @@
 - AWS Cloud9 also allows for code collaboration in real-time (pair programming)
 
 # AWS Systems Manager (SSM)
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2016.png)
 
 - It helps you manage your EC2 and On-Premises systems at scale
 - Another Hybrid AWS service
@@ -218,26 +178,18 @@
 
 - Installed by default on Amazon Linux AMI & some Ubuntu AMI
 
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2017.png)
-
 - If an instance can’t be controlled with SSM, it’s probably an issue with the SSM agent!
 - Thanks to the SSM agent, we can ******************run commands, patch & configure****************** our servers
 
 # Systems Manager - SSM Session Manager
 
 - Allows you to start a secure shell on your EC2 and on-premises servers
-
 - No SSH access, bastion hosts, or SSH keys needed
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2018.png)
-
 - No port 22 needed (better security)
 - Supports Linux, macOS, and Windows
 - Send session log data to S3 or CloudWatch Logs
 
 # AWS OpsWorks
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2019.png)
 
 - Chef & Puppet helps you perform server configuration automatically, or repetitive actions
 - They work great with EC2 and on-premises VM
@@ -246,10 +198,6 @@
 - Only provision standard AWS resources:
     - EC2 Instances, Database, Load Balancers, EBS volumes…
 - **In the exam: Chef or Puppet needed —> AWS OpsWorks**
-
-# OpsWorks Architecture
-
-![Untitled](Section%209%20Deploying%20and%20Managing%20Infrastructure%20at%205f13da85b89b495198981ba7938300e3/Untitled%2020.png)
 
 # Deployment - Summary
 
